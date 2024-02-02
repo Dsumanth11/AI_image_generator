@@ -1,7 +1,8 @@
 import React, { useRef, useState } from 'react'
 import './ImageGenerator.css'
 import default_image from '../Assets/default_image.jpg'
-const PROJECT_KEY = "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";
+
+
 const ImageGenerator = () =>{
 
     const [image_url,setImage_url] = useState("/");
